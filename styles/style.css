@@ -1,0 +1,96 @@
+
+img {
+    width: 48px;
+    height: 48px;
+}
+
+.minesweeper {
+    width: 420px;
+    height: 420px;
+    border: 5px inset black;
+}
+
+.minefield {
+    border: 10px solid ;
+    border-style: inset;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.hidden1:hover {
+    color: rgba(3, 3, 243 , 1);
+}
+
+.hidden2:hover {
+    color: rgba(0, 128, 0, 1);
+}
+
+.hidden3:hover{
+    color: rgba(255, 0, 0, 1);
+}
+
+.hiddenbomb:hover{
+    opacity: 1;
+}
+
+.hidden1{
+    color: rgba(3, 3, 243, 0);
+}
+
+.hidden2{
+    color: rgba(0, 128, 0, 0);
+}
+
+.hidden3{
+    color: rgba(255, 0, 0, 0);
+}
+
+.hiddenbomb {
+    opacity: 0;
+}
+
+.bomb {
+    background-color:  rgba(213, 212, 212 , 1);
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted black; ;
+}
+
+.checked {
+    background-color: rgba(213, 212, 212 , 1);
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    justify-content: center;
+    border-bottom: 1px dotted black; ;
+}
+
+.unchecked {
+    background-color: rgba(115, 113, 113, 1);
+    border-top: 4px inset white;
+    align-items: center;
+    border-left: 4px inset rgb(255, 255, 255);
+    border-bottom: 4px inset black;
+    border-right: 4px inset black;
+}
+
+.one {
+    color: rgba(3, 3, 243, 1);
+}
+.two {
+    color: rgba(0, 128, 0, 1);
+}
+
+.three {
+    color: rgba(255, 0, 0, 1);
+}
